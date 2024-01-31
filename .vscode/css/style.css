@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*background-image: url("../images/bg-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  */
+  background: url("../images/bg-mobile.jpg") no-repeat top center / cover;
+}
+
+#container {
+  border: red solid 1px;
+  width: 360px;
+  margin: 56px auto 0px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile p {
+  border: green solid 1px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
+}
+#profile img {
+  border: blue solid 1px;
+  width: 112px;
+  margin: auto;
+}
+
+body {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
