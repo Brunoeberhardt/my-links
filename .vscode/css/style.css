@@ -12,10 +12,14 @@ body {
   background: url("../images/bg-mobile.jpg") no-repeat top center / cover;
 }
 
+a {
+  color: white;
+}
+
 #container {
-  border: red solid 1px;
   width: 360px;
   margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 #profile {
@@ -24,13 +28,11 @@ body {
 }
 
 #profile p {
-  border: green solid 1px;
   font-weight: 500;
   line-height: 24px;
   margin-top: 8px;
 }
 #profile img {
-  border: blue solid 1px;
   width: 112px;
   margin: auto;
 }
@@ -38,4 +40,64 @@ body {
 body {
   color: #ffffff;
   font-family: "Inter", sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 24px;
+  padding: 24px 0;
+}
+
+ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+
+  transition: background 0.4s;
+}
+
+ul li a:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid #ffffff;
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+
+  padding: 24px;
+
+  font-size: 24px;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+#social-links a:hover {
+  background: rgba(255, 255, 255, 0.15);
+
+  transition: background 0.5s;
+}
+footer {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 14px;
 }
