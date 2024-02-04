@@ -85,6 +85,10 @@ a {
   transform: translateY(-50%);
 }
 
+#switch button:hover {
+  background: var(--highlight-color);
+}
+
 .light #switch button {
   right: 0;
   left: initial;
@@ -151,7 +155,6 @@ ul li a:hover {
 
 #social-links a:hover {
   background: var(--highlight-color);
-
   transition: background 0.5s;
 }
 footer {
