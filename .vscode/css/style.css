@@ -87,6 +87,7 @@ a {
 
 #switch button:hover {
   background: var(--highlight-color);
+  opacity: 5%;
 }
 
 .light #switch button {
