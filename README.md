@@ -1,7 +1,7 @@
 <h1 align="center"> MyLinks </h1>
 
 <p align="center">
-Programa, desenvolvido sob auxúi pela Rocketseat para ensino de tecnologias WEB.
+Programa, desenvolvido sob auxílio da Rocketseat para ensino de tecnologias WEB.
 </p>
 
 <p align="center">
@@ -17,9 +17,6 @@ Programa, desenvolvido sob auxúi pela Rocketseat para ensino de tecnologias WEB
 
 <br>
 
-<p align="center">
-  <img alt="calendario da copa" src=".github/preview.jpg" width="100%">
-</p>
 
 ## 🚀 Tecnologias
 
